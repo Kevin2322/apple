@@ -583,6 +583,153 @@ body {
 }
 
 
+#page20{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+#page20>video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#center-page20{
+  position: absolute;
+  height: 20%;
+  width: 20%;
+  bottom: 18%;
+  right: 5%;
+  color: #fff;
+}
+#center-page20>h1{
+  margin-bottom: 1.7vw;
+}
+#page21{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+#page21>#troff{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  width: 50%;
+  z-index: 9;
+}
+#page21>#tron{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  width: 50%;
+}
+
+#page22{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  height: 30vh;
+  width: 100vw;
+  background-color: #000;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+#page22>h5{
+  width: 35%;
+}
+
+#page23{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+#page23>#snroff{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  width: 50%;
+  z-index: 9;
+}
+#page23>#snron{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  width: 50%;
+}
+
+#page24{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  height: 30vh;
+  width: 100vw;
+  background-color: #000;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+#page24>h5{
+  width: 35%;
+}
+
+#page25{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+#page25>img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity:0
+}
+
+#page26{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  height: auto;
+  width: 100vw;
+  background-color: #000;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5vw;
+ /* margin-top: 10%; */
+}
+
+#page26>h5{
+  width: 35%;
+}
+
+#page26>button{
+  position: relative;
+  bottom: 10%;
+  padding: 10px 20px;
+  font-size: 1.5vw;
+  border-radius: 50px;
+  background-color: #ff823d;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  margin: 4%;
+}
+
 
 
 

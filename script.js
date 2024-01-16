@@ -512,3 +512,46 @@ end: `80% top`,
 }
 canvas1();
 
+
+var tl3 = gsap.timeline({
+  scrollTrigger:{
+      trigger:`#page21`,
+      start:`top top`,
+      scrub:1,
+      scroller:`#main`,
+      pin:true
+  }
+})
+
+
+tl3.to("#page21>#troff",{
+  opacity:0
+})
+
+var tl4 = gsap.timeline({
+  scrollTrigger:{
+      trigger:`#page23`,
+      start:`top top`,
+      scrub:1,
+      scroller:`#main`,
+      pin:true
+  }
+})
+
+
+tl4.to("#page23>#snroff",{
+  opacity:0
+})
+
+
+
+gsap.to("#page25>img",{
+  scrollTrigger:{
+    trigger:`#page25>img`,
+    start:`top bottom`,
+    end:`bottom 60%`,
+    scrub:.5,
+    scroller:`#main`
+  },
+  opacity:1
+})
